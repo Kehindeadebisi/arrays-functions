@@ -49,9 +49,10 @@ function maxNumber(arrNumbers) {
     for(let arr[i])
 }*/
 
-let arrNumbers = [4, 5, 10, -2]
-maxNumber = arrNumbers[0]
+
+
 function arrMax(arrNumbers){
+let maxNumber = arrNumbers[0]
 for(let i = 1; i < arrNumbers.length; i++) {
 	if (arrNumbers[i] > maxNumber)
 	{
@@ -61,10 +62,10 @@ for(let i = 1; i < arrNumbers.length; i++) {
 return maxNumber
 }
 
-console.log(arrMax(arrNumbers))
+console.log(arrMax([4, 5, 10, -2]))
 
 //5
-let arr = [1,2,3,4]
+
 let newArr = []
 function valTimesIndex(arr){
 	for (let i = 0; i < arr.length; i++) {
@@ -72,4 +73,4 @@ function valTimesIndex(arr){
 	}
 	return newArr
 }
-console.log(valTimesIndex(arr))
+console.log(valTimesIndex([1,2,3,4]))
